@@ -1,0 +1,244 @@
+.container .foot { background-color:#11a3de !important;  }
+.container-fluid .end { float: right;  }
+.navbar .adress { display: flex; color: white;  }
+.navbar .clock { display: flex;  color: white; float: right; }
+.container .navbar .container-fluid { font-size: 12px;   }
+/* .container .navbar .row {  display: flex; justify-content: space-between !important;  } */
+
+
+.navsecond .d-flex .square { font-weight: 700;  }
+.navsecond .d-flex .nav .link-dark { font-weight: 500 !important;  }
+.navsecond .d-flex .nav .link-secondary { color: #0faee7 !important; font-weight: 500;  }
+.navsecond .d-flex .text-end .share_icon { width: 36px; height: 36px;   }
+.navsecond .d-flex .boot { width: 36px; height: 40px;  }
+.navsecond .text-end .menu_icon { width: 36px; height: 36px;  }
+
+
+
+.row .col-xl-6 .build { color: #1e8ec7; padding-top: 1rem;  }
+.row .col-xl-6 .best { color:#020202; padding-top: 1rem;  }
+.row .col-xl-6 .best { font-size: 3.5rem;  }
+.row .text_con { margin-top: 3rem;  }
+.row .col-xl-6 .clients { color:#181818; margin-top: 1rem;  margin-bottom: 2rem; }
+.row .col-xl-6 .contact { background-color: #1a8ccb; color: #fcfeff;   }
+.sample_im { width: 99%;  }
+
+
+
+.experience { height: 80px;  background-color: #1c8eca;   }
+.experience .need {  font-size: 25px; font-weight: 600; color: #f8feff; padding: 20px;  }
+.experience .row .ideas {  background-color: #fdfdff; border-radius: 0; margin: 18px; color: #0a0100; font-weight: 500; padding: 10px 19px  15px 25px; }
+
+
+.who { position: relative; padding-left: 45px; color:  #0ea0d9;}
+
+.who::before {   
+    content: "";
+   display: block;
+   width: 50px;
+   height: 4px;
+   background: #0ea0d9;
+   left: -7px;
+   top: 55%;
+   position: absolute;  }
+
+
+
+.dolor { margin-top: 50px; margin-bottom: 50px;  }
+.dolor .nullam {font-weight: 700; font-size: 2.25rem;   }
+.dolor .lorem {   color:#696f91 ;}
+.dolor .dummy { color:#1f1f1f; font-weight: 500; padding-top: 8px; line-height: 2; }
+
+
+
+.offer {  background-color: #fafafa;  padding-top: 100px; padding-bottom: 100px;  }
+.offer .weoff { color:#088bd1; position: relative;  }
+.weoff::before{ 
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    background: #0ea0d9;
+    left: 39%;
+    top: 55%;
+    position: absolute;
+}
+
+.weoff::after{ 
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    background: #0ea0d9;
+    right: 39%;
+    top: 55%;
+    position: absolute;
+}
+ 
+.offer .servic {  color: #000000;  font-size: 3.5rem;  }
+.sit {  color:#828282;     }
+.analysis { height: 35px; background-color:#1a8ccb ; color: #f2fbfa;   }
+.analysis p {  padding-left: 20px;  }
+
+
+
+
+
+
+.casestudy .weoff { color:#088bd1; position: relative; }
+.casestudy .weoff::before{ 
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    background: #0ea0d9;
+    left: 32%;
+    top: 55%;
+    position: absolute;
+}
+.casestudy .weoff::after{ 
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    background: #0ea0d9;
+    right: 32%;
+    top: 55%;
+    position: absolute;
+}
+
+.casestudy {   padding: 50px 0 50px 0;   }
+.casestudy .virtual .web {  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;   }
+.casestudy .virtual .web .data_an { margin: 40px; }
+.casestudy .virtual .web .data_an h3 {  padding-bottom: 10px; font-weight: 500;  color: #040404; }  
+.casestudy .virtual .web .data_an p { color: #747474;  }
+.casestudy .virtual .web .data_an .read { border-radius: 0; background-color: #1a8ccb; color: #f1f7ff;  padding: 12px 17px 12px 17px;  }
+
+/* For Mobile Phones Portrait or Landscape View */
+/* @media screen and (max-device-width: 640px) {
+    .offer .weoff { color:#088bd1; position: relative;  }
+    .offer .weoff::before{ 
+        content: "";
+        display: block;
+        width: 50px;
+        height: 4px;
+        background: #0ea0d9;
+        left: 40%;
+        top: 55%;
+        position: absolute;
+    }
+    
+    .weoff::after{ 
+        content: "";
+        display: block;
+        width: 50px;
+        height: 4px;
+        background: #0ea0d9;
+        right: 40%;
+        top: 55%;
+        position: absolute;
+    }
+     
+  } */
+   
+  /* @media only screen and (max-width: 600px) {
+    .offer .weoff { color:#088bd1; position: relative;  }
+    .offer .weoff::before{ 
+        content: "";
+        display: block;
+        width: 50px;
+        height: 4px;
+        background: #0ea0d9;
+        left: 40%;
+        top: 55%;
+        position: absolute;
+    }
+    
+    .weoff::after{ 
+        content: "";
+        display: block;
+        width: 50px;
+        height: 4px;
+        background: #0ea0d9;
+        right: 40%;
+        top: 55%;
+        position: absolute;
+    }
+  } */
+
+
+
+
+
+.tips .creative .techn .data_an { margin: 20px; padding-left: 20px;  }
+.tips .creative .techn {  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;  }
+.tips .creative .techn .gravida {  color: #6a6a6a;  }   
+.tips .creative .techn .nov { color:#a8a8a8 ;  } 
+.tips .creative .techn .data_an h5 { font-weight: 600;  }   
+.tips .tip {color:#088bd1; position: relative; }
+.tips .tip::before{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    background: #0ea0d9;
+    left: 39%;
+    top: 55%;
+    position: absolute;
+}
+
+.tips .tip::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    background: #0ea0d9;
+    right: 39%;
+    top: 55%;
+    position: absolute; 
+}
+
+
+.exsq { display: flex;  }
+.foote {  background-color: #191814;  padding: 20px 0 20px 0; margin: 50px 0 0 0; }
+
+
+
+
+.eve .sample {  position: relative; background-color: #0c80b3; } 
+.eve .sampletext {  position: absolute; left: 50%;  transform: translate(-52%, -140%);  }
+
+
+
+
+.navbar-nav .nav-link {
+    color: #fff;
+  }
+  .dropend .dropdown-toggle {
+    color: salmon;
+    margin-left: 1em;
+  }
+  .dropdown-item:hover {
+    background-color: lightsalmon;
+    color: #fff;
+  }
+  .dropdown .dropdown-menu {
+    display: none;
+  }
+  .dropdown:hover > .dropdown-menu,
+  .dropend:hover > .dropdown-menu {
+    display: block;
+    margin-top: 0.125em;
+    margin-left: 0.125em;
+  }
+  @media screen and (min-width: 769px) {
+    .dropend:hover > .dropdown-menu {
+      position: absolute;
+      top: 0;
+      left: 100%;
+    }
+    .dropend .dropdown-toggle {
+      margin-left: 0.5em;
+    }
+  }
+  
