@@ -1,0 +1,32 @@
+
+body{font-family: 'Quicksand', sans-serif;}
+
+
+.bg-overlay-dark-new{position: relative;}
+.bg-overlay-dark-new:before{ background-image: -webkit-linear-gradient(to bottom, rgba(27, 26, 26, 0.5) 0%, rgba(27, 26, 26, 0) 31%, rgba(27, 26, 26, 0) 82%); background-image: -moz-linear-gradient(to bottom, rgba(27, 26, 26, 0.5) 0%, rgba(27, 26, 26, 0) 31%, rgba(27, 26, 26, 0) 82%); background-image: -o-linear-gradient(to bottom, rgba(27, 26, 26, 0.5) 0%, rgba(27, 26, 26, 0) 31%, rgba(27, 26, 26, 0) 82%); background-image: linear-gradient(to bottom, rgba(27, 26, 26, 0.5) 0%, rgba(27, 26, 26, 0) 31%, rgba(27, 26, 26, 0) 82%); background-color: rgba(3, 26, 52, 0.75);}
+.Inner-hero{height: 33vh !important; padding:80px 0 80px; position: relative;}
+.Inner-hero p{font-size: 50px; color: #fff; font-weight: 300; line-height:50px; margin-bottom: 15px;}
+.container{max-width:1400px;}
+.MainTabs::before{background-color: #0d1c30;width:100%; left: 0; content: ''; position: absolute;height: 50px; z-index: 1;}
+.MainTabs ul.nav-tabs{border:none; z-index: 5; position: relative;}
+.MainTabs ul.nav-tabs li a{padding: 16px 15px; line-height: 18px; border: none; font-size: 14.5px; font-weight: 500; background-color: #0d1c30; border-radius: 0; border-right: 1px solid #225979 !important; color: #fff; letter-spacing: 0.2px;}
+.MainTabs ul.nav-tabs li:last-child a{border:none !important;}
+.MainTabs ul.nav-tabs li a.active{color:#007cc3;}
+.MainTabs .tab-content .tab-pane h2{font-size: 34px; color: #002852; font-weight: 400; margin: 0; margin: 35px 0; line-height: 30px; position: relative;}
+.MainTabs .tab-content .tab-pane h2::before{ content: ''; position: absolute; background-color: #404040; height: 2px; width: 25px; bottom: -15px;}
+.MainTabs .tab-content .tab-pane h2::after{ content: ''; position: absolute; background-color: #404040; height: 2px; width: 48px; left: 30px; bottom: -15px;}
+.MainTabs .tab-content .tab-pane p{color: #696a6a; font-size: 16px; font-weight: 500; text-align: justify; line-height: 24px; margin-bottom:18px;}
+.MainTabs .tab-content .tab-pane ul{padding: 0 0 0 16px; margin: 0; margin-bottom: 18px;}
+.MainTabs .tab-content .tab-pane ul li{margin: 0; color: #696a6a; font-size: 16px; font-weight: 500; text-align: justify; letter-spacing: -0.2px; padding: 1px 0;}
+
+.ContentRight{padding: 16px 0px; border-radius: 5px; width: 100%; float: left; margin-bottom: 10px; position: relative; background-color: #007cc3;}
+.ContentRightTwo{padding: 5px 0px; border-radius: 5px; width: 100%; float: left; margin-bottom: 10px; position: relative; margin-top: 40px;}
+.ContentRight::before, .ContentRightTwo::before{background-image: url(../images/banners/contentBG.png); background-size: cover; content: ''; width: 100%; height: 100%; position: absolute; top: 0;}
+.ContentRight::after{content: ''; position: absolute; background-image: url(../images/Bulb.png); width: 60px; height: 72px; top: 15px; right: 8px;}
+.ContentRightTwo{background: #222983; background: -moz-linear-gradient(top, #222983 0%, #b54826 100%); background: -webkit-linear-gradient(top, #222983 0%,#b54826 100%); background: linear-gradient(to top, #222983 0%,#b54826 100%); }
+.ContentRight span{width: 100%; float: left; color: #fff; font-weight: 500; font-size: 22px; line-height: 24px; padding: 15px 30px; border-bottom: 1px solid rgba(255, 255, 255, 0.18);}
+.ContentRight span:last-child{border-bottom: none;}
+.ContentRightTwo p{font-size: 22px !important; padding: 15px 20px !important; color: #fff !important; margin-bottom: 12px !important;}
+.ContentRightTwo div label{position: absolute; font-size: 130px; text-transform: uppercase; font-family: 'PT Sans', sans-serif; top: 0px; left: 185px; color: #fff; font-weight: 600;}
+.ContentRightTwo div p{font-size: 22px  !important; padding: 15px 20px !important; color: #fff !important; padding-left: 260px !important; line-height: 30px !important; margin: 0 !important;}
+.InnerBlock{ background-color: #d9e2fb; border: 1px solid #72ade9; padding: 24px 30px; border-radius: 5px; color: #696a6a; font-size: 20px; font-weight: 600; text-align: center; line-height: 34px; margin: 20px 0; float: left;}
